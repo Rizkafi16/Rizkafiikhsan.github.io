@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Rizka Fitriyanti Ikhsan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        body {
+            background: linear-gradient(to bottom right, #FFF8DC, #800020);
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+        .header {
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 1rem;
+            border: 3px solid #800020;
+        }
+        .section {
+            padding: 2rem;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 2rem;
+            border-radius: 10px;
+        }
+        .project-item {
+            margin-bottom: 2rem;
+            border: 1px solid #ddd;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Menambahkan text-align: center */
+        }
+        .project-item img {
+            max-width: 100%; /* Gambar akan memenuhi lebar penuh container */
+            height: auto; /* Mempertahankan rasio aspek gambar */
+            margin-bottom: 1rem; /* Menambahkan margin bawah pada gambar */
+            display: block; /* Menghapus spasi ekstra di bawah gambar */
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .contact-info {
+          text-align: center;
+        }
+        .contact-icon {
+            margin-right: 0.5rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <img src="Rizka01178.jpg" alt="Foto Profil Rizka Fitriyanti Ikhsan" class="profile-image">
+        <h1>Rizka Fitriyanti Ikhsan</h1>
+        <p>Mahasiswa Desain Komunikasi Visual, Universitas Negeri Surabaya</p>
+    </header>
+
+    <section class="section" id="tentang-saya">
+        <h2>Tentang Saya</h2>
+        <p>Saya Rizka Fitriyanti Ikhsan, seorang mahasiswa S1 jurusan Desain Komunikasi Visual di Universitas Negeri Surabaya. Saya terampil bekerja dalam tim dan mahir dalam berbagai perangkat lunak seperti Adobe family.</p>
+    </section>
+
+    <section class="section" id="pendidikan">
+        <h2>Pendidikan</h2>
+        <p>Universitas Negeri Surabaya - Desain Komunikasi Visual (S1)</p>
+    </section>
+
+    <section class="section" id="pengalaman">
+        <h2>Pengalaman</h2>
+        <p>Magang di Infinite Learning sebagai Desain Grafis</p>
+        <p>(Februari 2024 - Juni 2024)</p>
+        <ul>
+            <li>Membantu dalam Proses pengeditan video Sosial Media.</li>
+            <li>Mendesain poster untuk Sosial Media</li>
+            <li>Bekerja sama dengan tim dalam proyek desain dan sosmed spesialis.</li>
+        </ul>
+    </section>
+
+    <section class="section" id="project">
+        <h2>Proyek Pribadi</h2>
+        <div class="project-item">
+            <img src="Salinan dari rizkuy.zip - 5.PNG" alt="Project 1 Image">
+        </div>
+        <div class="project-item">
+            <img src="Salinan dari rizkuy.zip - 6.PNG" alt="Project 1 Image">
+            <h3>Desain Media Sosial</h3>  <!-- Add a title for this project -->
+        <p>Desain postingan Instagram Infinite Learning.</p> <!-- Add a description for this project -->
+        
+        </div>
+        <div class="project-item">
+            <img src="web.PNG" alt="Project 2 Image">
+            <h3>Desain Website</h3>  <!-- Add a title for this project -->
+            <p>Proyek Matakuliah Branding.</p> <!-- Add a description for this project -->
+             
+        </div>
+        <div class="project-item">
+            <img src="minang.PNG" alt="Project 3 Image">
+            <h3>Desain Poster</h3>  <!-- Add a title for this project -->
+            <p>Proyek Matakuliah membuat Desn tentang Budaya.</p> <!-- Add a description for this project -->
+           
+        </div>
+    </section>
+
+    <footer class="section contact-info">
+        <h2>Kontak</h2>
+        <p><span class="contact-icon"><i class="bi bi-envelope"></i></span> <a href="mailto:Rizkafitriyantiikhsan@gmail.com">Rizkafitriyantiikhsan@gmail.com</a></p>
+        <p><span class="contact-icon"><i class="bi bi-telephone"></i></span> 089519015298</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
